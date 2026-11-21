@@ -467,7 +467,7 @@ msgstr "Transparência do ícone com o sistema atualizado"
 #. has black wires).
 #. Detailed explanation is in the tooltip.
 msgid "transparent black/white wireframe"
-msgstr ""
+msgstr "Transparência do ícone"
 
 #. TRANSLATORS: Tooltip for "transparent black/white wireframe" checkbox.
 #. Explains when transparent works and when it does not, depending on panel
@@ -479,6 +479,10 @@ msgid ""
 "  wireframe-dark (white wires): visible on dark panel, invisible on light panel.\n"
 "  wireframe-light (black wires): visible on light panel, invisible on dark panel."
 msgstr ""
+"Esta opção habilita a transparência dos ícones homônimos.\n"
+"Funciona melhor quando a cor das arestas do ícone contrasta com a cor do painel:\n"
+"O ícone ‘transparente -- preto’ fica visível no painel escuro graças às suas arestas brancas.\n"
+"O ícone ‘transparente -- branco’: fica visível no painel claro graças às suas arestas pretas."
 
 #. TRANSLATORS: The strings "dark" or "light" are used for the "dark" or
 #. "light" icon-set, respectively.
@@ -738,6 +742,11 @@ msgid ""
 "Requested: refresh %s, upgrade %s\n"
 "Effective: refresh %s, upgrade %s"
 msgstr ""
+"Uma opção do APT de maior prioridade está\n"
+"impedindo o salvamento das opções desejadas.\n"
+"\n"
+"Solicitado: recarregue %s, atualize %s\n"
+"Desejado: recarregue %s, atualize %s"
 
 #. TRANSLATORS: Title of the warning dialog shown when an apt configuration
 #. file

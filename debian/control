@@ -5,6 +5,7 @@ Maintainer: fehlix <fehlix@mxlinux.org>
 XSBC-Original-Maintainer: Kent Mathern <maintainer@mepiscommunity.org>
 Build-Depends:
  debhelper-compat (= 13),
+ dh-python,
  gettext,
  librsvg2-bin (>=2.50),
 Standards-Version: 4.7.2

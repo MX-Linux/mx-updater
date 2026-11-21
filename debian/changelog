@@ -1,3 +1,14 @@
+mx-updater (26.11.01mx25) mx; urgency=medium
+
+  * polkit: allow basic and full upgrades from remote sessions (RDP,
+    X2Go, VNC, SSH) after admin authentication. allow_any was "no", so
+    pkexec refused without a password prompt and the upgrade terminal
+    closed right away.
+  * debian/control: add dh-python to Build-Depends.
+  * Translations refresh.
+
+ -- fehlix <fehlix@mxlinux.org>  Fri, 20 Nov 2026 17:16:53 -0500
+
 mx-updater (26.10.01mx25) mx; urgency=medium
 
   * Terminal: fix xdotool window search failing to match the terminal
